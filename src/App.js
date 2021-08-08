@@ -1,14 +1,15 @@
 import React from "react";
 import Header from "./Header";
+import "./App.css"
 
 function App() {
   return (
     <div>
       <Header />
-      <button>Add</button>
-      <div>
-        <span>Name</span><br/>
-        <span>Phone</span>
+      <button className = "btn">Add</button>
+      <div className = "content">
+        <span className = "name">Name</span>
+        <span className = "phone">Phone</span>
       </div>
     </div>
   );
